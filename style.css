@@ -76,6 +76,10 @@ li a {
 
 /* nav-follow button  */
 .follow-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     width: 16.375rem;
     height: 3.5rem;
     border: none;
@@ -84,6 +88,12 @@ li a {
 }
 
 
-.youtube {
+.fa-youtube {
     color: red;
+    font-size: 2.12rem;
+}
+
+
+.fa-tiktok {
+    font-size: 1.5rem;
 }
