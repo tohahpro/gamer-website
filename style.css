@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+:root {
+    --primary-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --secondary-color: #0B0223;
+}
+
+
+h2 {
+    font-size: 3rem;
+}
