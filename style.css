@@ -203,14 +203,73 @@ li a {
 }
 
 
-/* main contaner start  */
+/* main contaner start   */
 
 /*  gamer section style start  */
 
-/* .gamer-section {
-    height: 100vh;
-    background-image: url(images/group-bg.png);
-} */
+
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+#gamer-section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+.game-section-content {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    width: 520px;
+
+}
+
+
+.gamer-section-title {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+
+.gamer-section-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.know-more-btn {
+    margin-left: 19rem;
+    padding: 21px 40px;
+    color: #FFF;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+
+.unless-box p {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+}
+
+.unless-box h3 {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
 
 
 
