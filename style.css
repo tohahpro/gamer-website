@@ -71,7 +71,8 @@ li a {
     align-items: center;
 }
 
-.nav-logo img {
+.nav-logo img,
+.footer-logo img {
     width: 5.38rem;
     height: 2.5rem;
 }
@@ -405,10 +406,82 @@ li a {
 }
 
 
+.game-selector-section-card :hover {
+    cursor: pointer;
+    color: #f948b2;
+}
+
+
 .game-selector-section-card img {
     width: 60px;
     height: 60px;
     margin-right: 0.7rem;
+}
+
+
+
+
+footer {
+    background-color: #4624a3;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+
+.footer-logo {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-contact,
+.social-icon,
+.footer-policy {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+ul>li {
+    list-style: none;
+}
+
+
+.social-icon {
+    margin-left: 34rem;
+    margin-right: 34rem;
+}
+
+
+.social-icon .fa-brands {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+
+.footer-policy {
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 32rem;
+    margin-right: 32rem;
+}
+
+
+.footer {
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+
+
 }
 
 
@@ -687,6 +760,51 @@ li a {
         font-size: 7px;
         margin-bottom: 1rem;
     }
+
+
+    /* footer  */
+
+    footer {
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .footer-contact,
+    .social-icon {
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 10px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 18px;
+    }
+
+
+
+    .social-icon .fa-brands {
+        font-size: 20px;
+
+    }
+
+
+    .footer-policy {
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 10px;
+        padding-bottom: 1.5rem;
+        gap: 18px;
+    }
+
+
+    .footer {
+        font-size: 13px;
+
+    }
+
 
 
 
