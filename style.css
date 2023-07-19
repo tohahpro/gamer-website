@@ -777,11 +777,11 @@ li a {
 
     /* online-game-section */
 
-    .online-game-section {
+    /* .online-game-section {
         /* margin-left: 5.5rem;
-        margin-right: 5.5rem; */
+        margin-right: 5.5rem; 
 
-    }
+    } */
 
     .card {
         grid-template-columns: repeat(2, 1fr);
@@ -805,4 +805,54 @@ li a {
         text-align: center;
         font-size: 1rem;
     }
+
+    /* play-instantly-section style start  */
+
+
+    .play-instantly-section {
+        flex-direction: column;
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+        margin-top: 0;
+    }
+
+
+    .play-instantly-section-content {
+        width: 400px;
+    }
+
+
+    .play-instantly-section-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+
+    .play-instantly-section-description {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+
+    .play-instantly-image {
+        width: 500px;
+        margin-top: 4rem;
+    }
+
+    .play-instantly-image #instant-img {
+        width: 100%;
+    }
+
+
+    .play-instantly-small-image {}
+
+    .play-instantly-small-image img {
+        width: 100%;
+    }
+
+
+
+
+
+
 }
