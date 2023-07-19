@@ -324,7 +324,7 @@ li a {
 
     .header-content {
         background-image: url(images/group-bg.png);
-        background-size: 18rem;
+        background-size: 20rem;
         align-items: center;
         width: 100%;
         height: 20rem;
@@ -377,6 +377,10 @@ li a {
     }
 
     .game-section-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
         margin-top: 6rem;
         margin-bottom: 6rem;
         width: 100%;
@@ -410,14 +414,11 @@ li a {
 
 
     .know-more-btn {
-
-
-        margin-left: 4.5rem;
-        padding: 14px 15px;
-        border: none;
-        border-radius: 35px;
-        font-size: 14px;
-        margin-bottom: 1.5rem;
+        margin-left: 0;
+        padding: 11px 1px;
+        border-radius: 18px;
+        font-size: 13px;
+        margin: 0.9rem 5rem;
     }
 
 
@@ -509,8 +510,63 @@ li a {
     }
 
     .header-section img {
-        width: 735px;
-        height: 580px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+    /* gamer section  */
+
+    #gamer-section {
+        flex-direction: column;
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+
+    }
+
+
+    #gamer-section img {
+        width: 100%;
+    }
+
+
+    .game-section-content {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+
+
+    .gamer-section-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+
+    .gamer-section-description {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2.4rem;
+    }
+
+
+    .unless-box p {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+
+    .unless-box h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+    .know-more-btn {
+        margin-left: 13rem;
     }
 
 
