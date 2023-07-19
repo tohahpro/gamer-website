@@ -115,6 +115,8 @@ li a {
 
 .header-content {
     margin-top: 10rem;
+    width: 901px;
+    height: 700px;
 }
 
 .header-section-normal-title {
@@ -215,4 +217,60 @@ li a {
     nav li {
         margin: 2.25rem;
     }
+
+
+    .header-section {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 3.5rem;
+        margin-right: 3.5rem;
+    }
+
+    .header-content {
+        width: 19.5rem;
+        height: 25rem;
+
+    }
+
+    .header-section-normal-title {
+        font-size: 2rem;
+    }
+
+    .header-section-high-light-title {
+        font-size: 4rem;
+    }
+
+
+
+
+
+    .header-section-sub-description {
+        font-size: 12px;
+    }
+
+    .header-section-icon {
+        font-size: 18px;
+        margin-right: 0;
+        margin-top: 0.5rem;
+    }
+
+    .download-icon {
+        margin-right: 1rem;
+    }
+
+
+    .sign-in-btn,
+    .go-rogue-btn {
+        padding: 13px 24px;
+        border-radius: 1.5rem;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
 }
