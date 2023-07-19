@@ -396,19 +396,21 @@ li a {
     justify-content: center;
     width: 243px;
     height: 80px;
-    border: 2px solid #0B0223;
+    border: none;
     border-radius: 50px;
     font-weight: 600;
     background: #FFF;
     color: #0B0223;
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 2rem;
 }
 
 
-.game-selector-section-card :hover {
-    cursor: pointer;
+
+
+.game-selector-section-card:hover {
     color: #f948b2;
+    border: 1px solid #f948b2;
 }
 
 
@@ -756,7 +758,7 @@ ul>li {
         width: 99px;
         height: 35px;
         border-radius: 50px;
-        font-size: 7px;
+        font-size: 6px;
         margin-bottom: 1rem;
     }
 
@@ -968,11 +970,7 @@ ul>li {
 
     /* online-game-section */
 
-    /* .online-game-section {
-        /* margin-left: 5.5rem;
-        margin-right: 5.5rem; 
 
-    } */
 
     .card {
         grid-template-columns: repeat(2, 1fr);
@@ -1056,7 +1054,6 @@ ul>li {
         grid-template-columns: repeat(3, 1fr);
         padding-bottom: 3rem;
         padding-top: 3rem;
-
         gap: 0.4rem;
     }
 
@@ -1072,9 +1069,16 @@ ul>li {
 
         width: 135px;
         height: 49px;
+        border: none;
         border-radius: 37px;
-        font-size: 9px;
+        font-size: 8px;
         margin-bottom: 1rem;
+    }
+
+
+    .game-selector-section-card:hover {
+        color: #f948b2;
+        border: 1px solid #f948b2;
     }
 
 
