@@ -310,7 +310,7 @@ li a {
 
 
     .header-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
@@ -443,14 +443,14 @@ li a {
 @media screen and (min-width:576px) and (max-width:922px) {
 
     nav,
-    nav>ul,
-    .header-section {
+    nav>ul {
         flex-direction: column;
         margin: 0;
 
     }
 
     .header-section {
+        flex-direction: column-reverse;
         background-image: none;
         margin-left: 5.5rem;
         margin-right: 5.5rem;
@@ -533,6 +533,10 @@ li a {
 
 
     .game-section-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
         margin-top: 6rem;
         margin-bottom: 6rem;
         width: 100%;
@@ -566,9 +570,11 @@ li a {
 
 
     .know-more-btn {
-        margin-left: 13rem;
+        padding: 17px 52px;
+        border-radius: 18px;
+        font-size: 13px;
+        margin: 0.9rem 15rem;
     }
-
 
 
 
