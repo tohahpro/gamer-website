@@ -424,8 +424,8 @@ li a {
 footer {
     background-color: #0B0223;
     text-align: center;
-    padding-left: 4rem;
-    padding-right: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .footer-logo {
@@ -441,13 +441,12 @@ footer {
 .social-icon,
 .footer-policy {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 70px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 28rem;
-    margin-right: 28rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -1083,7 +1082,7 @@ ul>li {
     /* footer  */
 
     footer {
-        padding-left: 150px;
+        /* padding-left: 150px; */
         padding-right: 150px;
         padding-bottom: 60px;
         padding-top: 70px;
@@ -1100,27 +1099,22 @@ ul>li {
         padding-right: 1rem;
         gap: 18px;
     }
-}
-
-
-
-.social-icon .fa-brands {
-    font-size: 20px;
-
-}
-
-
-.footer-policy {
-    margin: 0;
-    flex-wrap: wrap;
-    font-size: 10px;
-    padding-bottom: 1.5rem;
-    gap: 18px;
-}
 
 
 
 
+    .social-icon .fa-brands {
+        font-size: 20px;
 
+    }
+
+
+    .footer-policy {
+        margin: 0;
+        flex-wrap: wrap;
+        font-size: 10px;
+        padding-bottom: 1.5rem;
+        gap: 18px;
+    }
 
 }
