@@ -105,15 +105,24 @@ li a {
 /* header section style start  */
 
 .header-section {
-
+    background-image: url(images/group-bg.png);
+    background-size: 55rem;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
     margin-left: 14.6875rem;
     margin-right: 16.25rem;
 }
 
+.header-section img {
+    width: 711px;
+    height: 700px;
+}
+
 
 .header-content {
+    display: flex;
+    justify-content: center;
     margin-top: 10rem;
     width: 901px;
     height: 700px;
@@ -151,13 +160,18 @@ li a {
     color: #f948b2;
 }
 
+
 .fa-circle-play {
     margin-right: 1.3125rem;
 }
 
-.download-icon {
-    margin-right: 1.5rem;
+.fa-download {
+    margin-right: 20px;
 }
+
+/* .download-icon {
+    margin-right: 1.5rem;
+} */
 
 .fa-user-group {
     margin-right: 1.125rem;
@@ -188,6 +202,15 @@ li a {
     margin-left: 1.5rem;
 }
 
+
+/* main contaner start  */
+
+/*  gamer section style start  */
+
+/* .gamer-section {
+    height: 100vh;
+    background-image: url(images/group-bg.png);
+} */
 
 
 
@@ -222,22 +245,32 @@ li a {
     .header-section {
         flex-direction: column;
         margin: 0;
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        background-image: none;
+    }
+
+    .header-section img {
+        width: 296px;
+        height: 250px;
     }
 
     .header-content {
+        background-image: url(images/group-bg.png);
+        background-size: 20rem;
+        align-items: center;
         width: 19.5rem;
         height: 25rem;
 
     }
 
+
     .header-section-normal-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .header-section-high-light-title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
 
@@ -245,25 +278,20 @@ li a {
 
 
     .header-section-sub-description {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .header-section-icon {
-        font-size: 18px;
+        font-size: 11px;
         margin-right: 0;
         margin-top: 0.5rem;
     }
 
-    .download-icon {
-        margin-right: 1rem;
-    }
-
-
     .sign-in-btn,
     .go-rogue-btn {
-        padding: 13px 24px;
+        padding: 11px 15px;
         border-radius: 1.5rem;
-        font-size: 13px;
+        font-size: 10px;
     }
 
 
@@ -289,8 +317,9 @@ li a {
     }
 
     .header-section {
-        margin-left: 3.5rem;
-        margin-right: 3.5rem;
+        background-image: none;
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
     }
 
 
@@ -303,20 +332,54 @@ li a {
     }
 
 
+
+
     .header-content {
-        font-size: 20px;
+        background-image: url(images/group-bg.png);
+        background-repeat: no-repeat;
+        align-items: center;
+        background-size: 46rem;
+        font-size: 1rem;
         margin-top: 5rem;
-        width: 400px;
-        height: 600px;
+        width: 664px;
+        height: 560px;
+
     }
 
     .header-section-normal-title {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     .header-section-high-light-title {
-        font-size: 4.375rem;
+        font-size: 4rem;
     }
+
+
+    .header-section-sub-description {
+        font-size: 12px;
+    }
+
+    .header-section-icon {
+        font-size: 18px;
+        margin-right: 0;
+        margin-top: 0.5rem;
+    }
+
+
+
+
+    .sign-in-btn,
+    .go-rogue-btn {
+        padding: 16px 22px;
+        border-radius: 47px;
+        font-size: 17px;
+    }
+
+    .header-section img {
+        width: 735px;
+        height: 580px;
+    }
+
 
 
 
