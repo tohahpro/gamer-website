@@ -296,6 +296,10 @@ li a {
     font-weight: 400;
 }
 
+
+
+
+
 /* card style  */
 
 .card-container {
@@ -319,6 +323,55 @@ li a {
     margin-right: 15rem;
     margin-top: 4rem;
 }
+
+/* overlay effect */
+
+.container {
+    position: relative;
+
+}
+
+.overlay {
+    width: 342px;
+    height: 400px;
+    background-color: #0B0223;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: ease-in 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f948b2;
+}
+
+.video-text p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.fa-circle-play {
+    font-size: 3rem;
+    color: white;
+
+}
+
+.container:hover .overlay {
+    opacity: 0.7;
+}
+
 
 
 /* Play Instantly section style */
