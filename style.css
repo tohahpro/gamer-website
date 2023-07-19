@@ -220,6 +220,12 @@ li a {
 }
 
 
+#gamer-section img {
+    width: 868px;
+    height: 489px;
+}
+
+
 .game-section-content {
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -237,7 +243,7 @@ li a {
 .gamer-section-description {
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 2rem;
 }
@@ -249,7 +255,7 @@ li a {
     border: none;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -259,12 +265,12 @@ li a {
 .unless-box p {
     color: #534C64;
     text-align: right;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .unless-box h3 {
     color: #534C64;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -286,12 +292,14 @@ li a {
 
 @media screen and (max-width:576px) {
 
+
     nav,
     nav>ul {
         flex-direction: column;
         padding-top: 2rem;
         padding-left: 0;
         padding-right: 0;
+        margin: auto;
 
     }
 
@@ -310,19 +318,17 @@ li a {
     }
 
     .header-section img {
-        width: 296px;
-        height: 250px;
+        width: 100%;
+        height: 300px;
     }
 
     .header-content {
         background-image: url(images/group-bg.png);
-        background-size: 20rem;
+        background-size: 18rem;
         align-items: center;
-        width: 19.5rem;
-        height: 25rem;
-
+        width: 100%;
+        height: 20rem;
     }
-
 
     .header-section-normal-title {
         font-size: 1.5rem;
@@ -352,6 +358,74 @@ li a {
         border-radius: 1.5rem;
         font-size: 10px;
     }
+
+
+
+    /* gamer section  */
+
+    #gamer-section {
+        flex-direction: column;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+
+    }
+
+    #gamer-section img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .game-section-content {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        width: 100%;
+    }
+
+
+    .gamer-section-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .gamer-section-description {
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .unless-box p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    .unless-box h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    .know-more-btn {
+
+
+        margin-left: 4.5rem;
+        padding: 14px 15px;
+        border: none;
+        border-radius: 35px;
+        font-size: 14px;
+        margin-bottom: 1.5rem;
+    }
+
+
+
+
+
+
+
 
 
 
