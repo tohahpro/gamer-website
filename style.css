@@ -669,9 +669,37 @@ li a {
 
 
 
+    /* card section style  */
 
 
+    /* online-game-section */
+
+    .online-game-section {
+        /* margin-left: 5.5rem;
+        margin-right: 5.5rem; */
+
+    }
+
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
+    }
 
 
+    .card-container {
+        width: 326px;
+    }
 
+    .card-container img {
+        width: 100%;
+    }
+
+    .card-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem;
+    }
 }
