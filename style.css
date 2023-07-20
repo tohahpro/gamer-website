@@ -205,11 +205,11 @@ li a {
 /*  gamer section style start  */
 
 
-.gamer-section {
+#gamer-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
-#gamer-section {
+.gamer-section {
     display: flex;
     justify-content: space-evenly;
     margin-left: 15rem;
@@ -217,7 +217,7 @@ li a {
 }
 
 
-#gamer-section img {
+.gamer-section img {
     width: 868px;
     height: 489px;
 }
