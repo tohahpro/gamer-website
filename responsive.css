@@ -394,24 +394,28 @@
 
     /* gamer section  */
 
-    #gamer-section {
+    .gamer-section {
+        background-color: #FFFFFF;
         flex-direction: column;
         margin-left: 5.5rem;
         margin-right: 5.5rem;
+        margin-top: 7rem;
 
     }
 
 
-    #gamer-section img {
+    .gamer-section img {
         width: 100%;
     }
 
     .game-section-content {
+        background-color: #FFFFFF;
         display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        margin-top: 6rem;
+        margin-top: 0rem;
+        padding-top: 6rem;
         margin-bottom: 6rem;
         width: 100%;
     }
@@ -427,15 +431,21 @@
         text-align: center;
         font-size: 1rem;
         margin-bottom: 2.4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
-    .unless-box p {
+    .unleash-box {
+        margin-top: 3rem;
+    }
+
+    .unleash-box p {
         text-align: center;
         font-size: 1.4rem;
     }
 
 
-    .unless-box h3 {
+    .unleash-box h3 {
         font-size: 1.5rem;
         text-align: center;
     }
@@ -500,7 +510,7 @@
 
     .play-instantly-section-description {
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.15rem;
     }
 
 
