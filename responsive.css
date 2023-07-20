@@ -222,7 +222,7 @@
 
 
     .play-instantly-image {
-        width: 252px;
+        width: 225px;
     }
 
     .play-instantly-section #instant-img {
@@ -232,7 +232,7 @@
 
 
     .play-instantly-small-image {
-        width: 130.5px;
+        width: 115.5px;
         height: 64.083px;
         background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
         position: relative;
