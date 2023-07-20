@@ -66,32 +66,36 @@
 
     /* gamer section  */
 
-    #gamer-section {
+    .gamer-section {
+        background-color: #FFFFFF;
         flex-direction: column;
+        margin-top: 2.25rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
 
     }
 
-    #gamer-section img {
+    .gamer-section img {
         width: 100%;
         height: 100%;
 
     }
 
     .game-section-content {
+        background-color: #FFFFFF;
         display: flex;
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         width: 100%;
     }
 
 
     .gamer-section-title {
-        font-size: 2rem;
+        padding-top: 3.8rem;
+        font-size: 1.5rem;
         text-align: center;
         margin-bottom: 1.5rem;
     }
@@ -99,8 +103,8 @@
 
     .gamer-section-description {
         text-align: center;
-        font-size: 1rem;
-        margin-bottom: 2rem;
+        font-size: 0.62rem;
+        margin-bottom: 1rem;
     }
 
 
@@ -121,10 +125,11 @@
         padding: 13px 0px;
         border-radius: 20px;
         font-size: 12px;
-        margin: 0.9rem 6rem;
+        margin: 0.5rem 5rem;
     }
 
     .unleash-box p {
+        margin-top: 2rem;
         text-align: center;
         font-size: 1rem;
     }
@@ -138,23 +143,22 @@
 
     /* online game section  */
 
-    /* .gamer-section {
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-    } */
+    .gamer-section {
+        margin-top: 7rem;
+    }
 
-    .online-game-section-container {
+    .online-game-section-content {
         width: 312px;
         margin: auto;
     }
 
 
     .online-game-section-title {
-        font-size: 1.5rem;
+        font-size: 1.375rem;
     }
 
     .online-game-section-description {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .card {
