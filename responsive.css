@@ -326,11 +326,19 @@
 
 @media screen and (min-width:576px) and (max-width:922px) {
 
-    nav,
-    nav>ul {
+    nav {
         flex-direction: column;
+        padding-top: 4rem;
+        padding-left: 0;
+        padding-right: 0;
         margin: 0;
 
+
+    }
+
+    nav>ul {
+        align-items: center;
+        justify-content: center;
     }
 
     .header-section {
@@ -338,10 +346,6 @@
         background-image: none;
         margin-left: 5.5rem;
         margin-right: 5.5rem;
-    }
-
-    nav {
-        padding: 0;
     }
 
     nav li {
