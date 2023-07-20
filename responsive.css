@@ -118,20 +118,30 @@
 
     .know-more-btn {
         margin-left: 0;
-        padding: 11px 1px;
-        border-radius: 18px;
-        font-size: 13px;
-        margin: 0.9rem 2rem;
+        padding: 13px 0px;
+        border-radius: 20px;
+        font-size: 12px;
+        margin: 0.9rem 6rem;
+    }
+
+    .unleash-box p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    .unleash-box h3 {
+        font-size: 1rem;
     }
 
 
 
     /* online game section  */
 
-    .gamer-section {
+    /* .gamer-section {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
-    }
+    } */
 
     .online-game-section-container {
         width: 312px;
@@ -140,11 +150,11 @@
 
 
     .online-game-section-title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .online-game-section-description {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .card {
