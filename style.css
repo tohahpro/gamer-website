@@ -411,7 +411,6 @@ li a {
 .play-instantly-small-image {
     width: 318.5px;
     height: 365.083px;
-    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
     position: relative;
     bottom: 245px;
 
