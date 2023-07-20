@@ -170,10 +170,6 @@ li a {
     margin-right: 20px;
 }
 
-/* .download-icon {
-    margin-right: 1.5rem;
-} */
-
 .fa-user-group {
     margin-right: 1.125rem;
 }
@@ -263,13 +259,13 @@ li a {
 }
 
 
-.unless-box p {
+.unleash-box p {
     color: #534C64;
     text-align: right;
     font-size: 1.5rem;
 }
 
-.unless-box h3 {
+.unleash-box h3 {
     color: #534C64;
     font-size: 2rem;
     font-weight: 700;
